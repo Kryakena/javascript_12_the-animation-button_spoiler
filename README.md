@@ -1,7 +1,14 @@
-# Кнопка с анимацией "Спойлер"
+# 🐱‍👤 Кнопка с анимацией "Спойлер" 🐱‍👤
 
 Источник: видео "Спойлер на HTML CSS и jQuery + анимация стрелки // Как это сделать?" 
 https://vk.com/im/convo/19460369?entrypoint=list_all&z=video-125918837_456239142%2F6bd5a4c3d7a95aaed0
+
+![2024-12-29_12-00-38](https://github.com/user-attachments/assets/e362daf2-564a-4ec2-80ef-152c3c31176a)
+
+
+https://github.com/user-attachments/assets/ff00ecbc-1cab-4aba-b3c7-e7f20119ffe0
+
+
 
 1. создаем создаем файлы index.html, style.css, script.js в папке проекта
 
@@ -266,6 +273,9 @@ $(document).ready(function () {
 });
 ```
 
+![2024-12-29_12-04-39](https://github.com/user-attachments/assets/40718df7-38ac-4e72-a944-8a10ca164ae9)
+
+
 2. в файле index.html
 
 ```css
@@ -334,6 +344,9 @@ html,body{
 }
 ```
 
+![2024-12-29_12-04-14](https://github.com/user-attachments/assets/670ac937-b2da-4eee-8f68-0d050defb40e)
+![2024-12-29_12-04-26](https://github.com/user-attachments/assets/eff3d601-c7e1-4a6c-b6e1-63ba574a57dc)
+
 3. в файле style.css
 
 ```html
@@ -397,3 +410,8 @@ html,body{
 </body>
 </html>
 ```
+
+![2024-12-29_12-03-38](https://github.com/user-attachments/assets/ba61efc7-e498-4e9e-b86d-b9639fdea98f)
+![2024-12-29_12-03-55](https://github.com/user-attachments/assets/b62df8b7-bed2-4a64-8846-e3d9bef95bc5)
+
+
