@@ -18,13 +18,13 @@ html,body{
 
 .block {}
 .block_item {
-    margin: 0px 0px 20px 0px; /* Между спойлерами делаем отступ */
+    margin: 0 0 20px 0; /* Между спойлерами делаем отступ */
 }
 .block_title {
     text-transform: uppercase;
     letter-spacing: 2px;
     position: relative; /* Перенос стрелочки спойлера в строку с названием заголовка */
-    padding: 0px 0px 0px 30px;
+    padding: 0 0 0 30px;
     cursor: pointer;
 }
 .block_title:before,
@@ -35,6 +35,7 @@ html,body{
     background-color: #000;
     position: absolute;
     top: 8px; /* Отсуп стрелочки от верхнего края вниз на 10px */
+    transition: all 0.3s ease 0s; /* Анимация плавного открытия спойлера */
 }
 .block_title:before{
     transform: rotate(40deg); /* Рисуется часть стрелки в строке заголовка: верхний левый угол к правому нижнему углу */
@@ -45,8 +46,18 @@ html,body{
     left: 8px; /* Смещаем часть стрелки вправо на 7 px от левого края */
 }
 
-.block_text {
-    display: none;
-    padding: 10px 0px 0px 0px; /* Вниз на 10 пикселей */
+.block_title.active:before,
+.block_title.active:after {
+    background-color: red; /* Покраснение стрелочки спойлера в активном состоянии */
+}
+.block_title.active:before{
+    transform: rotate(-40deg); /* Черная стрелочка спойлера смотрит вниз в закрытом состоянии */
+}
+.block_title.active:after{
+    transform: rotate(40deg); /* Красная стрелочка спойлера смотрит вверх в закрытом состоянии */
 }
 
+.block_text {
+    display: none;
+    padding: 10px 0 0 0; /* Вниз на 10 пикселей */
+}
