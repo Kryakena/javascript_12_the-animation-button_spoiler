@@ -345,6 +345,7 @@ html,body{
 ```
 
 ![2024-12-29_12-04-14](https://github.com/user-attachments/assets/670ac937-b2da-4eee-8f68-0d050defb40e)
+
 ![2024-12-29_12-04-26](https://github.com/user-attachments/assets/eff3d601-c7e1-4a6c-b6e1-63ba574a57dc)
 
 3. в файле style.css
