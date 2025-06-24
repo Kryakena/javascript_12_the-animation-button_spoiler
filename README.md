@@ -35,7 +35,8 @@ https://github.com/user-attachments/assets/ff00ecbc-1cab-4aba-b3c7-e7f20119ffe0
         <!-- Контент -->
         
         <!-- Подключаем jQuery -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
         <!-- Подключаем файл JS скриптов -->
         <script src="script.js"></script>
     </div>
